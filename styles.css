@@ -1,0 +1,63 @@
+/* Css Document */
+
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Header of the Website */
+.heading {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: center;
+    background-color: rgb(109, 109, 228);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* The Avenger Character Search design */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Stylimg the Search container*/
+.search-container {
+    display: column;
+    flex-direction: row;
+    height: 1000px;
+    justify-content: ;
+    background-color: rgb(192, 223, 233);
+    padding-top: 20px;
+
+}
+
+.search-container h3 {
+    margin-left: 200px;
+}
+
+/* Styling the search box*/
+.textbox input {
+    height: 43px;
+    width: 700px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+/*Styling the Search button*/
+.btn {
+    float: right;
+    color: white;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    margin-right: 330px;
+    margin-bottom: 600px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
